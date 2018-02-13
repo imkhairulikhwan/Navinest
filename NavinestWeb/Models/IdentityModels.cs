@@ -29,5 +29,7 @@ namespace NavinestWeb.Models
         {
             return new ApplicationDbContext();
         }
-    }
+
+		public System.Data.Entity.DbSet<NavinestWeb.Models.Blog> Blogs { get; set; }
+	}
 }
