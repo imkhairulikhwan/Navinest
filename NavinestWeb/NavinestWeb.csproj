@@ -576,6 +576,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\PropertyListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -1036,6 +1037,10 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="signin.html" />
     <Content Include="success.html" />
+    <None Include="Views\Account\SignIn.cshtml" />
+    <None Include="Views\Home\Agent.cshtml" />
+    <None Include="Views\Home\AgentList.cshtml" />
+    <None Include="Views\Home\MyListingAdd.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1070,6 +1075,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\MyProfile.cshtml" />
+    <Content Include="Views\Home\PropertyListingMap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -45,24 +45,24 @@ namespace NavinestWeb
             // This is similar to the RememberMe option when you log in.
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
-            // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+			// Uncomment the following lines to enable logging in with third party login providers
+			//app.UseMicrosoftAccountAuthentication(
+			//    clientId: "",
+			//    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+			//app.UseTwitterAuthentication(
+			//   consumerKey: "",
+			//   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+			app.UseFacebookAuthentication(
+			   appId: "152060522222780",
+			   appSecret: "b7c8e2f593fc8973d07eb3f1772f3c09");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
-        }
+			//app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+			//{
+			//    ClientId = "",
+			//    ClientSecret = ""
+			//});
+		}
     }
 }
